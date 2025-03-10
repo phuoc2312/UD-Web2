@@ -1,7 +1,7 @@
 *Index  
-- **Mục đích:Tăng tốc truy vấn dữ liệu trong cơ sở dữ liệu.  
-- **Ưu điểm:Cải thiện hiệu suất truy vấn, giảm tải hệ thống.  
-- **Nhược điểm:Tiêu tốn bộ nhớ và làm chậm các thao tác INSERT, UPDATE, DELETE do phải cập nhật lại chỉ mục.  
+- Mục đích:Tăng tốc truy vấn dữ liệu trong cơ sở dữ liệu.  
+- Ưu điểm:Cải thiện hiệu suất truy vấn, giảm tải hệ thống.  
+- Nhược điểm:Tiêu tốn bộ nhớ và làm chậm các thao tác INSERT, UPDATE, DELETE do phải cập nhật lại chỉ mục.  
 
 *Transaction 
 - Mục đích:Đảm bảo tính toàn vẹn dữ liệu bằng cách thực hiện các thao tác một cách đồng bộ.  
