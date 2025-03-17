@@ -1,0 +1,19 @@
+*Index  
+- Mục đích:Tăng tốc truy vấn dữ liệu trong cơ sở dữ liệu.  
+- Ưu điểm:Cải thiện hiệu suất truy vấn, giảm tải hệ thống.  
+- Nhược điểm:Tiêu tốn bộ nhớ và làm chậm các thao tác INSERT, UPDATE, DELETE do phải cập nhật lại chỉ mục.  
+
+*Transaction 
+- Mục đích:Đảm bảo tính toàn vẹn dữ liệu bằng cách thực hiện các thao tác một cách đồng bộ.  
+- Ưu điểm:Hỗ trợ rollback, giúp khôi phục dữ liệu khi có lỗi, tránh tình trạng dữ liệu không nhất quán.  
+- Nhược điểm:Có thể làm giảm hiệu suất hệ thống nếu giao dịch kéo dài quá lâu.  
+
+*Trigger
+- Mục đích:Tự động thực thi các hành động khi có sự kiện INSERT, UPDATE, DELETE trên bảng dữ liệu.  
+- Ưu điểm:Giúp tự động hóa xử lý dữ liệu, tăng cường bảo mật và đảm bảo tính toàn vẹn dữ liệu.  
+- Nhược điểm:Khó debug, có thể làm chậm hệ thống nếu xử lý phức tạp hoặc kích hoạt quá nhiều lần.  
+
+*Procedure
+- Mục đích:Định nghĩa tập hợp các câu lệnh SQL để tái sử dụng, giúp đơn giản hóa việc xử lý dữ liệu.  
+- Ưu điểm:Giảm tải cho ứng dụng, tăng hiệu suất thực thi do các câu lệnh SQL được biên dịch sẵn.  
+- Nhược điểm:Khó bảo trì khi thủ tục trở nên phức tạp và kém linh hoạt khi cần chỉnh sửa.
